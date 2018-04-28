@@ -109,6 +109,20 @@ const Card = (characters) => {
                                <hr/>
                         <h2 className = "name1">{characters.name}</h2>
                        </div>
+                      
+                       const Card9 = (characters) => {
+                    return (
+                            <div className = 'charcards'>
+                              <div>
+                              <img className= 'pic' alt = 'Scarlet Witch'
+                              src = 'https://i.pinimg.com/originals/1a/d3/4c/1ad34ca37c6043fa8c35fb5a08d2773d.jpg'/>
+                                 </div>
+                                 <hr/>
+                          <h2 className = "name1">{characters.name}</h2>
+                         </div>
+                       );
+                     }
+                      
                      );
                    }
-     export {Card, Card2, Card3, Card4, Card5, Card6, Card7, Card8 }
+     export {Card, Card2, Card3, Card4, Card5, Card6, Card7, Card8, Card9 }
