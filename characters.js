@@ -41,6 +41,11 @@ export const characters = [
 id:7,
 people:7,
 name: 'Loki'
-
 }
+    
+{
+id:8,
+people:8,
+name: 'Doctor Strange'
+} 
 ]
