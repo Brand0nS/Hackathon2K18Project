@@ -99,5 +99,16 @@ const Card = (characters) => {
                  }
   
 
-
-     export {Card, Card2, Card3, Card4, Card5, Card6, Card7 }
+  const Card8 = (characters) => {
+                  return (
+                          <div className = 'charcards'>
+                            <div>
+                            <img className= 'pic' alt = 'Dr.Strange'
+                            src = 'https://i.pinimg.com/236x/e3/f9/32/e3f932125cd145e06da15bafa2793a9b.jpg'/>
+                               </div>
+                               <hr/>
+                        <h2 className = "name1">{characters.name}</h2>
+                       </div>
+                     );
+                   }
+     export {Card, Card2, Card3, Card4, Card5, Card6, Card7, Card8 }
