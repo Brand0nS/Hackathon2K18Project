@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import {characters} from './characters'
-import {Card, Card2, Card3, Card4, Card5, Card6, Card7, Card8} from './Card'
+import {Card, Card2, Card3, Card4, Card5, Card6, Card7, Card8, Card9} from './Card'
 import registerServiceWorker from './registerServiceWorker';
 
 ReactDOM.render(
@@ -25,6 +25,8 @@ name = {characters[5].name}/>
 name = {characters[6].name}/>
 <Card8 
 name = {characters[7].name}/>
+<Card9
+name = {characters[8].name}/>
 </div>,
      document.getElementById('root'));
 registerServiceWorker();
