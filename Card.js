@@ -18,4 +18,86 @@ const Card = (characters) => {
        );
      }
  
-     export {Card}
+     const Card2 = (characters) => {
+      return (
+              <div className = 'charcards'>
+                <div>
+                <img className= 'pic' alt = 'Thor'
+                src = 'https://pre00.deviantart.net/fa03/th/pre/f/2012/152/e/c/thor_portrait_by_dicemanart-d51ygfn.jpg'/>
+                   </div>
+                   <hr/>
+            <h2 className = "name1">{characters.name}</h2>
+           </div>
+         );
+       }
+
+
+       const Card3 = (characters) => {
+        return (
+                <div className = 'charcards'>
+                  <div>
+                  <img className= 'pic' alt = 'Hulk'
+                  src = 'https://cdn.movieweb.com/img.news.tops/NEH7D1gHenspKJ_1_b/Thor-3-Ragnarok-Hulk-Bruce-Banner-Fight.jpg'/>
+                     </div>
+                     <hr/>
+              <h2 className = "name1">{characters.name}</h2>
+             </div>
+           );
+         }
+
+         const Card4 = (characters) => {
+          return (
+                  <div className = 'charcards'>
+                    <div>
+                    <img className= 'pic' alt = 'Steve Rogers'
+                    src = 'http://static.comicvine.com/uploads/original/12/122233/3779435-captain_america__the_first_avenger_ipod_wallpaper_by_stephencanlas-d53esbp.jpg'/>
+                       </div>
+                       <hr/>
+                <h2 className = "name1">{characters.name}</h2>
+               </div>
+             );
+           }
+
+           
+           const Card5 = (characters) => {
+            return (
+                    <div className = 'charcards'>
+                      <div>
+                      <img className= 'pic' alt = 'Black Panther'
+                      src = 'https://i.ebayimg.com/images/g/BBwAAOSwrfVZXgVF/s-l300.jpg'/>
+                         </div>
+                         <hr/>
+                  <h2 className = "name1">{characters.name}</h2>
+                 </div>
+               );
+             }
+  
+             const Card6 = (characters) => {
+              return (
+                      <div className = 'charcards'>
+                        <div>
+                        <img className= 'pic' alt = 'Spiderman'
+                        src = 'https://pm1.narvii.com/6746/6d27bb586b89f48e11b3250d7ba3a9799c7973c3v2_hq.jpg'/>
+                           </div>
+                           <hr/>
+                    <h2 className = "name1">{characters.name}</h2>
+                   </div>
+                 );
+               }
+
+               const Card7 = (characters) => {
+                return (
+                        <div className = 'charcards'>
+                          <div>
+                          <img className= 'pic' alt = 'Loki'
+                          src = 'https://a.wattpad.com/cover/21661678-352-k210992.jpg'/>
+                             </div>
+                             <hr/>
+                      <h2 className = "name1">{characters.name}</h2>
+                     </div>
+                   );
+                 }
+  
+
+
+     export {Card, Card2, Card3, Card4, Card5, Card6, Card7 }
